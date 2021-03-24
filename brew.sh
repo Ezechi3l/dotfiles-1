@@ -90,3 +90,7 @@ brew install "font-fira-code-nerd-font"
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# neovim coc config
+python3 -m pip install neovim
+npm install -g neovim

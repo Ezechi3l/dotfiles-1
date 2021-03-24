@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="/Users/eze/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -121,7 +121,7 @@ export TERM="xterm-256color"
 setopt rmstarsilent
 
 # Nvim to vim
-alias vim="neovim"
+alias vim="nvim"
 
 #find all service on a port
 alias port-d="sudo lsof -i" # ex: sudo lsof -i :80
